@@ -1,0 +1,1 @@
+rootProject.name = "com.quickresponse.student-attendance-system"
