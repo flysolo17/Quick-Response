@@ -16,6 +16,7 @@ Database used:
   -sql
   
 How to run?
+
   step 1. run xampp server
   step 2. import sql file in your php admin
   step 3. Open and run quick-response-server application via Intellij IDE
