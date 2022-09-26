@@ -3,19 +3,19 @@ A attendance system with integration of QR Scanner
 
 
 
-Applications needed
+# Applications needed
   -Xampp
   -Intellij IDE
   -Visual Studio Code or Android Studio
-
-Programming Laguages
+  
+# Programming Laguages
   -Dart - Client Side application
   -Kotlin - Server Side Application
 
-Database used:
+# Database used:
   -sql
   
-How to run?
+$ How to run?
 
   step 1. run xampp server
   step 2. import sql file in your php admin
