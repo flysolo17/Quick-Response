@@ -15,7 +15,7 @@ A attendance system with integration of QR Scanner
 # Database used:
   -sql
   
-$ How to run?
+# How to run?
 
   step 1. run xampp server
   step 2. import sql file in your php admin
