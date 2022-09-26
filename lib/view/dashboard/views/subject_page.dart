@@ -27,7 +27,7 @@ class _SubjectPageState extends State<SubjectPage> {
        backgroundColor: colorPrimary,),
          body: Row(
            children: [
-             Expanded(child: Container(
+             if (MediaQuery.of(context).size.width > 1080 ) Expanded(child: Container(
                color: colorSecondary,
                child: Padding(
                  padding: const EdgeInsets.all(10),
@@ -136,7 +136,8 @@ class _SubjectPageState extends State<SubjectPage> {
         }
       }, child:const Text("Update"))
     ],
-  )
+    )
   );
+
 
 }

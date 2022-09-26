@@ -73,6 +73,7 @@ class _DashBoardHomePageState extends State<DashBoardHomePage> {
               isApiCallProcess = false;
               Navigator.of(context).pop();
               _subjectNameController.clear();
+              _subjectDescController.clear();
             }),
           });
         }
@@ -131,7 +132,7 @@ class _DashBoardHomePageState extends State<DashBoardHomePage> {
   }
   gridView(AsyncSnapshot<List<Subjects>> snapshot) {
     return Padding(padding: const EdgeInsets.all(10.0),
-    child: GridView.count(crossAxisCount: 4,
+    child: GridView.count(crossAxisCount: getScreenSize(),
     childAspectRatio: (1 / .3),
     mainAxisSpacing: 10,
     crossAxisSpacing: 10,
@@ -167,5 +168,15 @@ class _DashBoardHomePageState extends State<DashBoardHomePage> {
       isApiCallProcess = false;
     });
   }
-
+  int getScreenSize() {
+    if(MediaQuery.of(context).size.width > 1500) {
+      return 4;
+    } else if (MediaQuery.of(context).size.width < 1500 && MediaQuery.of(context).size.width > 1080){
+      return 3;
+    }  else if (MediaQuery.of(context).size.width < 1080 && MediaQuery.of(context).size.width > 900){
+      return 2;
+    }else {
+      return 1;
+    }
+  }
 }
