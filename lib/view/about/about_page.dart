@@ -101,19 +101,19 @@ class AboutPage extends StatelessWidget {
                     DeveloperCard(
                       name: "Juan Dele Cruz",
                       position: "Developer/Leader",
-                      facebook: "https://www.facebook.com/jmballangca.pogi",
+                      facebook: "",
                       instagram: "Hey",
                     ),
                     DeveloperCard(
                       name: "Juan Dele Cruz",
                       position: "Developer/Leader",
-                      facebook: "https://www.facebook.com/jmballangca.pogi",
+                      facebook: "",
                       instagram: "Hey",
                     ),
                     DeveloperCard(
                       name: "Juan Dele Cruz",
                       position: "Developer/Leader",
-                      facebook: "https://www.facebook.com/jmballangca.pogi",
+                      facebook: "",
                       instagram: "Hey",
                     ),
                   ],

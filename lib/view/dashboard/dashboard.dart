@@ -24,7 +24,7 @@ class _DashBoardPageState extends State<DashBoardPage> {
   List<Widget> views = const [
     DashBoardHomePage(),
     AccountPage(),
-    AboutPage(),
+    Center(child: Text('About Page')),
   ];
 
   @override
