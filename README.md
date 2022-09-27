@@ -18,6 +18,6 @@ A attendance system with integration of QR Scanner
 # How to run?
 
   step 1. run xampp server
-  step 2. import sql file in your php admin
+  step 2. create database named quick_response in your localhost admin then import sql file
   step 3. Open and run quick-response-server application via Intellij IDE
   step 4. Open and run quick-response-client application via Visual Studio Code or Android Studio
